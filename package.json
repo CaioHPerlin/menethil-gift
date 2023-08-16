@@ -1,0 +1,16 @@
+{
+  "name": "arthas",
+  "version": "1.0.0",
+  "description": "Meu rei",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serve ."
+  },
+  "author": "CaioHPerlin",
+  "license": "ISC",
+  "dependencies": {
+    "js-confetti": "^0.11.0",
+    "serve": "^14.2.0"
+  }
+}

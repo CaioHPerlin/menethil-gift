@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: hsl(279, 22%, 48%);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ED7B7B;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e05077;
+  }
+
+body{
+    box-sizing: border-box;
+    font-weight: normal !important;
+    color: #fff3f6;
+    font-family: 'Itim', cursive;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(279, 22%, 48%);
+}
+
+h1{
+    font-weight: normal !important;
+    text-align: justify;
+    line-height: 7vmin;
+    font-size: 4vmin;
+    transition: 0.5s;
+}
+
+span{
+    background-color: #e05077;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+    color: #fff3f6;
+    font-family: 'Itim', cursive;
+    font-size: 5vmin;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #ED7B7B;
+    border: 1px solid #e05077;
+    border-bottom: 8px solid #e05077;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #e05077;
+    border: 1px solid #e05077;
+    border-bottom: 8px solid #e05077;
+}
+
+div{
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: #ED7B7B;
+    border-bottom: 8px solid #e05077;
+    transition: 0.5s;
+}
